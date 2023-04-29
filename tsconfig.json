@@ -4,6 +4,11 @@
   "compilerOptions": {
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
+
+    "resolveJsonModule": true,            //esse aqui importei, referente a json do banco de dados//
+    "allowSyntheticDefaultImports": true,
+
+
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "noImplicitOverride": true,
